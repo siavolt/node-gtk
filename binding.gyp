@@ -12,7 +12,7 @@
                 "src/boxed.cc",
             ],
             "cflags": [
-                "<!@(pkg-config --cflags gobject-introspection-1.0) -Wall -Werror",
+                "<!@(pkg-config --cflags gobject-introspection-1.0) -Wall -Wextra",
             ],
             "ldflags": [
                 "-Wl,-no-as-needed",
